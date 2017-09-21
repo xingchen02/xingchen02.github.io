@@ -1,3 +1,21 @@
 git init
-git add testgit2.txt 
+git clone https://github.com/xingchen02/xingchen02.github.io
+git add testgit1.txt 
+git commit -m "add testgit1.txt"
+root:/work/www/xingchen02.github.io# git push -u origin master
+Username for 'https://github.com': xingchen02
+Password for 'https://xingchen02@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 268 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/xingchen02/xingchen02.github.io
+   c832d84..52bd48c  master -> master
+Branch master set up to track remote branch master from origin.
+
+git add testgit2.txt
 git commit -m "add testgit2.txt"
+git push origin master
+
